@@ -24,5 +24,8 @@ p{
 }
 
 .btn:hover{
-    background: rgb(1, 9, 117);
+    background: rgba(132, 255, 17, 0.514);
+}
+.footer-container {
+  color: blue;
 }
