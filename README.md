@@ -1,11 +1,5 @@
-# agencyStudio
-We build websites for people.
-
-- Index - Eric 
-- About - Kip
-- Portfolio - Malach
-- Contact- Larry
-
+# shoeShop
+We are a shoe selling platform for different manufacturers and retailers.
 
 Workflow branches
 - Masterbranch
