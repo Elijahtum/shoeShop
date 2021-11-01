@@ -11,62 +11,75 @@
     <link href="aseets/css/home.css" rel="stylesheet">
 
     <title>Shoe Shop</title>
+    <style>
+        header {
+    position: relative;
+    height: auto;
+    min-height: 650px;
+    width: 100%;
+    background: #161415 url(aseets/Images/revolt-164_6wVEHfI-unsplash.jpg) no-repeat top center;
+    background-size: auto;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    text-align: start;
+    overflow: hidden;
+    color: rgb(10, 253, 51); 
+} 
+    </style>
 </head>
 
-<body>
-    <header>
-        <div class="container rounded">
-            <div class="container background-image mt-5">
-                <img src="aseets/Images/revolt-164_6wVEHfI-unsplash.jpg" alt="nike shoe" width="1000"height="300">
-                <div class="row p-5">
-                    <div class="col-md-4 mt-5">
-                        <h1>FireTank</h1>
+    <body>
+        <header>
+            <div class="container">               
+                    <div class="row">
+                        <div class="col-md-4 col-lg-4 col-sm-12 mt-5">
+                            <a class="navbar-brand" href="#"><h1 class="home-title">Shoe Palor</h1></a>
+                        </div>
+                            <div class="col-md-6 col-lg-6 col-sm-12 mt-5">
+                                <nav>
+                                    <ul class="nav nav-tabs nav-justified">
+                                        <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Store</a>
+                                        </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link text-white"  href="#">ContactUs</a>
+                                        </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">About Us</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!--Button-->
+                            <div class="col-md-2 col-lg-2 col-sm-12 mt-5">
+                                <button type="button" class="btn btn-outline">Sign In</button>
+                            </div>                                            
                     </div>
-                    <div class="col-md-6 mt-5">
-                        <ul class="nav nav-tabs nav-justified">
-                            <li class="nav-item">
-                            <a class="nav-link active" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Store</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link text-dark"  href="#">ContactUs</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">About Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                        <!--Button-->
-                    <div class="col-md-2 mt-5 justify-content-end">
-                        <button type="button" class="btn btn-outline-primary">Sign In</button>
-                    </div>
-                        
                     
-                </div>
-            <!--Body Row-->
-            <div>
-                <div class="row p-5">
-                    <div class="col-md-4">
-                        <h1 class="text-center">The New <br> Arrivals</h1>
-                        <p class="text-center mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Sed non optio, esse error ex soluta unde fugit modi official
-                            blanditiis!</p>
-                    </div>
-            </div>
-                <div>
-                    <div class="colmd-8">
+                <!--Body Row-->
+                    <div class="row p-5">
+                        <div class="col-md-4 col-lg-4 col-sm-12 mt-5">
+                            <h1 class="text-start">The New <br> Arrivals</h1>
+                            <p class="text-center mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Sed non optio, esse error ex soluta unde fugit modi official
+                                blanditiis!</p>
+                                <br>
+                                <button type="button" class="btn btn-outline-primary text-primary">Oder Now</button>
+                        </div>
+                        <div class="col-md-8 col-md-8 col-sm-12">
+                            
+                        </div>
                     
                     </div>
-                </div>
-                </div>
+                
             </div>
-        </div>
-    
-    <script src="aseets/js/bootstrap.bundle.min.js"></script>
-    <script src="aseets/js/main"></script>
-</header>
-</body>
 
+        
+        </header>
+    </body>
+        <script src="aseets/js/bootstrap.bundle.min.js"></script>
+        <script src="aseets/js/main"></script>
 </html>
