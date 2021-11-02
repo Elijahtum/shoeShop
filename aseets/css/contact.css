@@ -6,3 +6,11 @@
     opacity: 0.5;
     line-height: 10px;
   }
+
+.col-feedback{
+    height: 200px;
+    width: 40%;
+    text-align: center;
+    line-height: 10px;
+    margin-left: 5px;
+  }
