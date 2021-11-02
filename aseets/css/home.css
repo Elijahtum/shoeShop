@@ -12,9 +12,14 @@ p{
   position: center;
   opacity: 0.9;
 }
+.card:hover{
+  border: 4px solid rgb(250, 247, 247);
+}
+
 .home-title{
   color: aliceblue;
 }
+
 .btn{
     background: rgb(220, 50, 243);
     color: rgb(4, 19, 19);
@@ -22,6 +27,7 @@ p{
 
 .btn:hover{
     background: rgba(132, 255, 17, 0.514);
+    border: 3px solid rgb(253, 252, 252);
 }
 
 .footer-container {

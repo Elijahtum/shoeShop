@@ -9,31 +9,79 @@
     <!-- Bootstrap CSS -->
     <link href="aseets/css/bootstrap.min.css" rel="stylesheet">
     <link href="aseets/css/contact.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Starter</title>
+    <title>Shoe Shop</title>
+    <style>
+            header {
+        position: relative;
+        height: auto;
+        min-height: 650px;
+        width: 100%;
+        background: #02395e url(aseets/Images/pexels-terje-sollie-298863.jpg) no-repeat top center;
+        background-size: auto;
+        background-size: cover !important;
+        -webkit-background-size: cover !important;
+        text-align: start;
+        overflow: hidden;
+        color: rgb(10, 253, 51); 
+    } 
+    </style>
 </head>
 
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10"></div>
-            <div class="col-md-1"></div>
+    <body>
+        <header>
+            <div class="container">               
+                    <div class="row">
+                        <div class="col-md-4 col-lg-4 col-sm-12 mt-5">
+                            <a class="navbar-brand" href="home.html"><h1 class="home-title">Shoe Store.</h1></a>
+                        </div>
+                            <div class="col-md-6 col-lg-6 col-sm-12 mt-5">
+                                <nav>
+                                    <ul class="nav nav-tabs nav-justified">
+                                        <!-- <li class="nav-item">
+                                        <a class="nav-link text-white" href="home.html">Home</a>
+                                        </li> -->
+                                        <li class="nav-item">
+                                        <a class="nav-link text-white" href="store.html">Store</a>
+                                        </li>
+                                        <!-- <li class="nav-item">
+                                        <a class="nav-link text-white"  href="contact.html">Contact Us</a>
+                                        </li> -->
+                                        <li class="nav-item">
+                                        <a class="nav-link text-white" href="aboutUs.html">About Us</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!--Button-->
+                            <div class="col-md-2 col-lg-2 col-sm-12 mt-5">
+                                <a href="#" type="button" class="btn btn-primary btn-outline float-end">Sign In</a>
+                            </div>                                            
+                    </div>
+                    
+                <!--Body Row-->
+                    <div class="row mt-5">
+                        <div class="col-contacts">
+                            <h1 class="text-white">You can reach us through..</h1>
+                            <i class="fa fa-at fa-align-left" style="font-size:48px;color:rgb(255, 255, 255)"></i>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                
+            </div>
 
-
-
-        </div>
-        <div class="row"></div>
-        <div class="row"></div>
-        <div class="row"></div>
-
-
-
-
-    </div>
-    <script src="aseets/js/bootstrap.bundle.min.js"></script>
-    <script src="aseets/js/contact.js"></script>
-
-</body>
-
+        </header>
+                <!--Footer-->
+            <div class="row">
+                <footer class="page-footer font-small bg-black">
+                    <!-- Copyright -->           
+                    <div class="footer-copyright">
+                        <h5 class="text-center text-muted font-size mt-5 mb-5 "> © 2021 Copyright,All Right Reserved. </h5>           
+                    </div>                      
+                </footer>
+            </div>      
+    </body>
+        <script src="aseets/js/bootstrap.bundle.min.js"></script>
+        <script src="aseets/js/main"></script>
 </html>
