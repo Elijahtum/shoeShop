@@ -1,0 +1,1 @@
+document.getElementById("intro_Message").innerHTML = `Best Online Shop! Order Now And we deliver to your Door!`;
