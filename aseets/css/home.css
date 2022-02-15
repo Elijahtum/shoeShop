@@ -4,8 +4,14 @@ h1{
 }
 
 p{
-  color: aliceblue;
+  color: rgb(10, 10, 10);
   font-size: 20px;
+}
+
+#intro_Message{
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
 }
 
 .card {
