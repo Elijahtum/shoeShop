@@ -19,7 +19,13 @@ p{
 .home-title{
   color: aliceblue;
 }
+img {
+  height: 500px;
+}
 
+ul{
+  text-transform: capitalize;
+}
 .btn{
     background: rgb(220, 50, 243);
     color: rgb(4, 19, 19);
