@@ -1,6 +1,6 @@
 document.getElementById("intro_Message").innerHTML = `Best Online Shop! Order Now And we deliver to your Door!`;
 
-//Class creation calculating Current Year
+//Class calculating Current Year
 class introduction {
     constructor(name, year) {
       this.name = name;
@@ -22,15 +22,15 @@ function displayDate() {
   };
 
 //Object Method
-const person = {
-    firstName:"Founded By Eli.",
-    lastName:"kokwet Business Empire",
-    id: 1016,
-    fullName: function (){
-        return this.firstName + "    " + this.lastName;
-    }
-}
-document.getElementById("Person").innerHTML = person.fullName();
+// const person = {
+//     firstName:"Founded By Eli.",
+//     lastName:"kokwet Business Empire",
+//     id: 1016,
+//     fullName: function (){
+//         return this.firstName + "    " + this.lastName;
+//     }
+// }
+// document.getElementById("Person").innerHTML = person.fullName();
 
 //
 
@@ -65,3 +65,18 @@ Object.defineProperty(obj, "subtract", {
 document.getElementById("counter_Demo").innerHTML = obj.counter;
 */
 
+// Tooltip hover over time Button
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
+$(document).ready(function(){
+  $("#Time_trial").click(function(){
+    $("#time-Display").show();
+  });
+  $("#Time_trial").click(function(){
+    $("#time-Display").hide();
+  });
+  
+});
