@@ -72,7 +72,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 })
 
 $(document).ready(function(){
-  $("#Time_trial").click(function(){
+  $("#Time_trial").dblclick(function(){
     $("#time-Display").show();
   });
   $("#Time_trial").click(function(){
